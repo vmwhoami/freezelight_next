@@ -3,7 +3,7 @@ import Head from 'next/head';
 import React from 'react';
 import { Provider } from 'react-redux';
 import { createWrapper } from 'next-redux-wrapper';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 import store from '../redux/store';
 
 function MyApp({ Component, pageProps }) {

@@ -4,7 +4,7 @@ const initial = {
 };
 
 const commonReducer = (state = initial, action: Object) => {
-  switch (action.type:String) {
+  switch (action.type) {
 
     default:
 return state;
